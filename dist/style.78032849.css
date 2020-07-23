@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    --color-one: #f68d91;
+    --color-two: #f6a892;
+    --color-three: #f9c58c;
+    --color-four: #fde585;
+    --color-five: #c7e29f;
+    --color-six: #2bb150;
+    --color-seven: #4064b0;
+    --color-eight: #bd97c8;
+    --color-nine: #b2aed3;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.rainbow {
+
+    height: 150px;
+    width: 400px;
+
+
+    overflow: hidden;
+}
+
+.rainbow div {
+    overflow: hidden;
+}
+
+
+.rainbow>div {
+    width: 400px;
+    height: 400px;
+    background-color: var(--color-one);
+    border-radius: 50%;
+    animation: one 3.5s linear infinite;
+    animation-delay: 0;
+}
+
+.rainbow>div>div {
+    width: 380px;
+    height: 380px;
+    background-color: var(--color-two);
+    margin: 10px;
+    border-radius: 50%;
+    animation: two 3.5s linear infinite;
+    animation-delay: .25s;
+}
+
+.rainbow>div>div>div {
+    width: 360px;
+    height: 360px;
+    background-color: var(--color-three);
+    margin: 10px;
+    border-radius: 50%;
+    animation: three 3.5s linear infinite;
+    animation-delay: .5s;
+}
+
+.rainbow>div>div>div>div {
+    width: 340px;
+    height: 340px;
+    background-color: var(--color-four);
+    margin: 10px;
+    border-radius: 50%;
+    animation: four 3.5s linear infinite;
+    animation-delay: .75s;
+}
+
+.rainbow>div>div>div>div>div {
+    width: 320px;
+    height: 320px;
+    background-color: var(--color-five);
+    margin: 10px;
+    border-radius: 50%;
+    animation: five 3.5s linear infinite;
+    animation-delay: 1s;
+}
+
+.rainbow>div>div>div>div>div>div {
+    width: 300px;
+    height: 300px;
+    background-color: var(--color-six);
+    margin: 10px;
+    border-radius: 50%;
+    animation: six 3.5s linear infinite;
+    animation-delay: 1.25s;
+}
+
+.rainbow>div>div>div>div>div>div>div {
+    width: 280px;
+    height: 280px;
+    background-color: var(--color-seven);
+    margin: 10px;
+    border-radius: 50%;
+    animation: seven 3.5s linear infinite;
+    animation-delay: 1.5s;
+}
+
+.rainbow>div>div>div>div>div>div>div>div {
+    width: 260px;
+    height: 260px;
+    background-color: var(--color-eight);
+    margin: 10px;
+    border-radius: 50%;
+    animation: eight 3.5s linear infinite;
+    animation-delay: 1.75s;
+}
+
+.rainbow>div>div>div>div>div>div>div>div>div {
+    width: 240px;
+    height: 240px;
+    background-color: var(--color-nine);
+    margin: 10px;
+    border-radius: 50%;
+    animation: nine 3.5s linear infinite;
+    animation-delay: 2s;
+}
+
+.rainbow>div>div>div>div>div>div>div>div>div>div {
+    width: 220px;
+    height: 220px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+@keyframes one {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-one);
+    }
+}
+
+@keyframes two {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-two);
+    }
+}
+
+@keyframes three {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-three);
+    }
+}
+
+@keyframes four {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-four);
+    }
+}
+
+@keyframes five {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-five);
+    }
+}
+
+@keyframes six {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-six);
+    }
+}
+
+@keyframes seven {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-seven);
+    }
+}
+
+@keyframes eight {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-eight);
+    }
+}
+
+@keyframes nine {
+
+    0%,
+    100% {
+        background: #111;
+    }
+
+    20%,
+    25% {
+        background: var(--color-nine);
+    }
+}
+
+/*# sourceMappingURL=/style.78032849.css.map */
